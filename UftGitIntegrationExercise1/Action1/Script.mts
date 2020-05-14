@@ -2,11 +2,11 @@
 'SystemUtil.Run "chrome.exe", "http://nimbusserver.aos.com:8000/#/"
 'msgbox "Hello WORLD!!!"
 
-
-Browser("Advantage Shopping_2").Page("Advantage Shopping").Link("TabletsCategoryTxt").Click @@ hightlight id_;_Browser("Advantage Shopping 2").Page("Advantage Shopping").Link("TabletsCategoryTxt")_;_script infofile_;_ZIP::ssf13.xml_;_
-Browser("Advantage Shopping_2").Page("Advantage Shopping").WebButton("buy_now").Click
-Wait 5
-Browser("Advantage Shopping_2").Page("Advantage Shopping").WebEdit("quantity").Set DataTable("Quantity", dtGlobalSheet)
-Browser("Advantage Shopping_2").Page("Advantage Shopping").WebButton("save_to_cart").Click @@ hightlight id_;_Browser("Advantage Shopping 2").Page("Advantage Shopping").WebButton("save to cart")_;_script infofile_;_ZIP::ssf16.xml_;_
-Browser("Advantage Shopping_2").Page("Advantage Shopping").WebElement("WebElement").Click @@ hightlight id_;_Browser("Advantage Shopping 2").Page("Advantage Shopping").WebElement("WebElement")_;_script infofile_;_ZIP::ssf17.xml_;_
-Browser("Advantage Shopping_2").Page("Advantage Shopping").Link("HOME").Click @@ hightlight id_;_Browser("Advantage Shopping 2").Page("Advantage Shopping").Link("HOME")_;_script infofile_;_ZIP::ssf18.xml_;_
+Browser("Advantage Shopping").Page("Advantage Shopping").Link("TabletsCategoryTxt").Click @@ hightlight id_;_Browser("Advantage Shopping 2").Page("Advantage Shopping 2").Link("TabletsCategoryTxt")_;_script infofile_;_ZIP::ssf19.xml_;_
+Browser("Advantage Shopping").Page("Advantage Shopping").WebButton("buy_now").Click @@ hightlight id_;_Browser("Advantage Shopping 2").Page("Advantage Shopping 2").WebButton("buy now")_;_script infofile_;_ZIP::ssf20.xml_;_
+Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("quantity").Set DataTable("Quantity", dtGlobalSheet) @@ hightlight id_;_Browser("Advantage Shopping 2").Page("Advantage Shopping 2").WebEdit("quantity")_;_script infofile_;_ZIP::ssf21.xml_;_
+Browser("Advantage Shopping").Page("Advantage Shopping").WebButton("save_to_cart").Click @@ hightlight id_;_Browser("Advantage Shopping 2").Page("Advantage Shopping 2").WebButton("save to cart")_;_script infofile_;_ZIP::ssf22.xml_;_
+Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("ValidaNumItems").Highlight
+Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("VaciarCarrito").Click @@ hightlight id_;_Browser("Advantage Shopping 2").Page("Advantage Shopping 2").WebElement("WebElement")_;_script infofile_;_ZIP::ssf23.xml_;_
+Browser("Advantage Shopping").Page("Advantage Shopping").Link("HOME").Click @@ hightlight id_;_Browser("Advantage Shopping 2").Page("Advantage Shopping 2").Link("HOME")_;_script infofile_;_ZIP::ssf24.xml_;_
+Wait 5 @@ hightlight id_;_Browser("Advantage Shopping 2").Page("Advantage Shopping").Link("HOME")_;_script infofile_;_ZIP::ssf18.xml_;_
